@@ -83,6 +83,7 @@ body{
     letter-spacing: 0.02em  ;
     padding-top: 24px;
     padding-bottom: 24px;
+    gap: 40px;
 }
 .menu-link:hover, 
 .menu-link:focus{
@@ -111,6 +112,8 @@ body{
 }
 .section-one{
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .section-head{
     color: var(--WHITE, #FFF);
@@ -120,6 +123,8 @@ body{
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    align-items: center;
 }
 .main-button{
     background-color: #4D5AE5;
@@ -129,6 +134,11 @@ body{
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .main-button:hover,
 .main-button:focus{
@@ -141,6 +151,7 @@ body{
     font-weight: 500;
     line-height: 1.2; 
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .section-paragraf-one{
     color: var(--SLATE, #434455);
@@ -152,6 +163,8 @@ body{
 }
 .section-three{
     background-color: #F4F4FD
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .section-header{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -162,12 +175,17 @@ body{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .section-list{
     background-color: #FFFFFF
+    display: flex;
+    gap: 24px;
 }
 .footer-menu{
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-text{
     color: var(--CLOUD, #F4F4FD);
@@ -177,9 +195,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.list-team{
-    background-color: #FFFFFF
-}
+
 .footer-logo{
     color: #f4f4fd;
 }
@@ -189,10 +205,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 76px;
 }
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .header-container{
     width: 1128px;
@@ -202,4 +219,34 @@ body{
 }
 .main-header{
     border-bottom: 1px solid #e7e9fc
+}
+.footer-link{
+    display: inline-block;
+    margin-bottom: 16px;
+} 
+.section-two{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.list-iteam{
+    width: calc((100% - 72px) / 4);
+    background-color: #FFFFFF
+}
+.list-section{
+    display: flex;
+    gap: 24px;
+}
+.team{
+    border-radius: 0px 0px 4px 4px;
+}
+.img-list{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.div-header{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.div-pg{
+    text-align: center;
 }
