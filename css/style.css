@@ -44,11 +44,12 @@ body{
 }
 
 .container{
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 1158px;
+    
 
 }
 .logo{
@@ -269,4 +270,7 @@ body{
 }
 .section-four{
     padding: 120px 0;
+}
+.main-header{
+    width: 1158px;
 }
